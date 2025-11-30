@@ -2,7 +2,7 @@
 
 A lightweight version control system built from scratch in Python, demonstrating fundamental **Data Structures and Algorithms** concepts.
 
-## 🎯 Project Overview
+##  Project Overview
 
 Mini Git is an educational implementation of a version control system that showcases:
 - **Hash Tables** for content-addressable storage
@@ -12,7 +12,7 @@ Mini Git is an educational implementation of a version control system that showc
 - **Dynamic Programming** (LCS algorithm) for file diffs
 - **Graph Traversal** for finding common ancestors
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 mini_git/
@@ -35,7 +35,7 @@ mini_git/
 └── requirements.txt
 ```
 
-## 📚 DSA Concepts Demonstrated
+##  DSA Concepts Demonstrated
 
 | Data Structure | Application | Operations |
 |----------------|-------------|------------|
@@ -46,19 +46,19 @@ mini_git/
 | **DP (LCS)** | Diff algorithm | O(m×n) time |
 | **Graph Traversal** | Common ancestor | O(n+m) time |
 
-## 🚀 Features
+##  Features
 
-- ✅ `init` - Initialize repository
-- ✅ `add` - Stage files for commit
-- ✅ `commit` - Create commits with messages
-- ✅ `log` - View commit history
-- ✅ `status` - Check repository status
-- ✅ `branch` - Create and list branches
-- ✅ `checkout` - Switch between branches
-- ✅ `diff` - Show file changes using LCS
-- ✅ `merge` - Merge branches with conflict detection
+-  `init` - Initialize repository
+-  `add` - Stage files for commit
+-  `commit` - Create commits with messages
+-  `log` - View commit history
+-  `status` - Check repository status
+-  `branch` - Create and list branches
+-  `checkout` - Switch between branches
+-  `diff` - Show file changes using LCS
+-  `merge` - Merge branches with conflict detection
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone or download the project
@@ -67,7 +67,7 @@ cd "mini_git"
 # No external dependencies required (uses Python standard library)
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Initialize Repository
 ```bash
@@ -121,7 +121,7 @@ echo "Modified content" >> file.txt
 python mini_git.py diff file.txt
 ```
 
-## 📓 Demonstration Notebooks
+##  Demonstration Notebooks
 
 1. **`01_demo_basic_operations.ipynb`**
    - Initialize, add, commit operations
@@ -140,7 +140,7 @@ python mini_git.py diff file.txt
    - Performance benchmarks
    - Complete complexity table
 
-## 🧮 Time Complexity Summary
+##  Time Complexity Summary
 
 | Operation | Complexity | Data Structure |
 |-----------|------------|----------------|
@@ -156,13 +156,13 @@ python mini_git.py diff file.txt
 
 *Where: n=size, d=depth, k=commits retrieved, m,n=file lines*
 
-## 📖 Documentation
+##  Documentation
 
 - **[DSA_CONCEPTS.md](DSA_CONCEPTS.md)** - Detailed explanation of all algorithms and data structures
 - **Notebooks** - Interactive demonstrations with visualizations
 - **Code comments** - Inline complexity analysis
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates:
 1. **Practical DSA application** - Real-world use of theoretical concepts
@@ -170,7 +170,7 @@ This project demonstrates:
 3. **Algorithm selection** - Choosing appropriate algorithms for each operation
 4. **Complexity analysis** - Understanding time/space trade-offs
 
-## 🧪 Testing
+##  Testing
 
 Run the demonstration notebooks to verify all functionality:
 
@@ -180,7 +180,7 @@ jupyter notebook notebooks/02_demo_branching.ipynb
 jupyter notebook notebooks/03_dsa_analysis.ipynb
 ```
 
-## 🔍 Under the Hood
+##  Under the Hood
 
 ### Content-Addressable Storage
 Files are stored by their SHA-1 hash, ensuring:
@@ -207,21 +207,21 @@ Branch {
 }
 ```
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.7+
 - No external dependencies (uses only Python standard library)
 - Jupyter Notebook (optional, for running demos)
 
-## 📝 License
+##  License
 
 This is an educational project for DSA demonstration purposes.
 
-## 👨‍💻 Author
+##  Author
 
 Created for DSA in Python course as end-semester project.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Inspired by Git's architecture and designed to teach fundamental computer science concepts through practical implementation.
 
