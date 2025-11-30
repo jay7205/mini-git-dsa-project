@@ -39,3 +39,14 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Internal project files (not for GitHub)
+.agent/
+GITHUB_UPLOAD_GUIDE.md
+QUICK_PUSH.bat
+PROJECT_STRUCTURE.md
+PROJECT_REPORT.md
+
+# Submission documents (keep local only)
+PROJECT_REPORT.docx
+MINI_GIT_VIVA_PRESENTATION.pptx
