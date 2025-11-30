@@ -1,0 +1,6 @@
+# No external dependencies required!
+# Mini Git uses only Python standard library
+
+# Optional: For running demonstration notebooks
+# jupyter>=1.0.0
+# notebook>=6.0.0
